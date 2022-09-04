@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 7</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+
+<input type="text" id="animal" placeholder="Животное">
+<input type="text" id="description" placeholder="Описание">
+<input type="text" id="reason" placeholder="Причина вымирания">
+<input type="text" id="amount" placeholder="Количество">
+<button id="addButton">Добавить строку</button>
+<input type="text" id="rowNumber" placeholder="Номер строки">
+<button id="deleteButton">Удалить строку</button>
+<button id="changeRowButton">Изменить строку</button>
+<br>
+<br>
+<input type="text" id="TDRowNumber" placeholder="Номер строки">
+<input type="text" id="TDColNumber" placeholder="Номер столбца">
+<input type="text" id="newText" placeholder="Новый текст">
+<button id="changeCellButton">Изменить ячейку</button>
+
+<table id="table">
+    <caption>Вымирающие животные</caption>
+    <thead>
+    <tr>
+        <th>Животное</th>
+        <th>Описание</th>
+        <th>Причина вымирания</th>
+        <th>Количество оставшихся особей</th>
+    </tr>
+    </thead>
+    <tr>
+        <td>Мамонт</td>
+        <td>Слон с шерстью</td>
+        <td>Замерз</td>
+        <td>0</td>
+    </tr>
+</table>
+
+</body>
+</html>
